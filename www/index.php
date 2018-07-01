@@ -75,19 +75,20 @@
 							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="#">
-							<img src="images/logo_white.png" alt="Logo">
+							<img src="images/logo_white.png" alt="Logo" style="height: 45px; padding-top: 20px;">
 						</a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav navbar-right">
 							<!-- NAV -->
-							<li><a href="#HOME">Главная</a> </li>
-							<li><a href="#ABOUT">О нас</a> </li>
-							<li><a href="#TESTIMONIAL">Отзывы</a></li>
-							<li><a href="#FEATURES">Особенности</a></li>
-							<li><a href="#DOWNLOAD">Скоро</a></li>
-							<li><a href="tel:+7(965)3604563"><span style="font-family: Helvetica Neue, Helvetica,Arial,sans-serif;">+7(965)360-45-63</span></a></li>
+							<li><a href="#HOME" style="color: #eeeeee;">Главная</a> </li>
+							<li><a href="#ABOUT" style="color: #eeeeee;">О нас</a> </li>
+							<li><a href="#TESTIMONIAL" style="color: #eeeeee;">Отзывы</a></li>
+							<li><a href="#FEATURES" style="color: #eeeeee;">Особенности</a></li>
+							<li><a href="#DOWNLOAD" style="color: #eeeeee;">Скоро</a></li>
+							<li><a href="tel:+7(965)3604563" style="color: #eeeeee;"><span style="font-family: Helvetica Neue, Helvetica,Arial,sans-serif;">+7(965)360-45-63</span></a></li>
+							<li><a href="#CONTACT" style="color: #f39c12;">Отправить посылку</a></li>
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -108,8 +109,8 @@
 					<div class="col-md-8 col-sm-8">
 						<div class="home_text">
 							<!-- TITLE AND DESC -->
-							<h1>Сервис междугородних доставок <span style="text-transform: lowercase;">deli<span style="text-transform: uppercase;">P</span>ort</span></h1>
-							<p>Осуществляем доставку в пределах 24ч*<sup> на расстояние до 1000км</sup></p>
+							<h1>Сервис СРОЧНЫХ междугородних доставок <span style="text-transform: lowercase;">deli<span style="text-transform: uppercase;">P</span>ort</span></h1>
+							<p>Осуществляем доставку в пределах 24ч на расстояние до 1000км</p>
 
 							<div class="download-btn">
 							<!-- BUTTON -->
@@ -132,6 +133,54 @@
 
 
 
+<!-- =========================
+	"Как это работает"
+============================== -->
+	<section id="FEATURES" class="features page">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<!-- FEATURES SECTION TITLE -->
+					<div class="section_title wow fadeIn" data-wow-duration="1s">
+						<h2>Как это работает</h2>
+						<p>Немного о том как работает наш сервис</p>
+					</div>
+					<!-- END FEATURES SECTION TITLE -->
+				</div>
+			</div>
+		</div>
+
+		<div class="feature_inner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 right_no_padding wow slideInLeft" data-wow-duration="1s">
+						<!-- FEATURE -->
+
+						<div class="list-work">
+							<p>1. Вы оставляете заявку на сайте или мобильном приложении(скоро доступно)</p>
+							<p>2. Наша система подбирает вам подходящего курьера при помощи самообучающейся нейронной сети</p>
+							<p>3. Курьер связывается с вами и забирает груз прямо от вашей двери</p>
+							<p>4. Мы осуществляем доставку в обозначенный срок</p>
+							<p>5. Все счастливы</p>
+						</div>
+						<!-- END SINGLE FEATURE -->
+
+					</div>
+					<div class="col-md-4">
+						<div class="feature_iphone">
+							<!-- FEATURE PHONE IMAGE -->
+							<img class="wow bounceIn" data-wow-duration="1s" src="images/iPhone02.png" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Конец секции -->
+
+
+<!-- Разделитель -->
+<div class="delimeter"></div>
 
  <!-- =========================
 	 START ABOUT US SECTION
@@ -254,7 +303,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 wow bounceInDown">
-						<div id="carousel-example-caption-testimonial" class="carousel slide" data-ride="carousel">
+						<div id="carousel-example-caption-testimonial" data-interval="false" class="carousel slide" data-ride="carousel">
 							<!-- Indicators -->
 							<ol class="carousel-indicators">
 								<li data-target="#carousel-example-caption-testimonial" data-slide-to="0" class="active"></li>
@@ -273,7 +322,7 @@
 												<div class="testimonial_caption">
 												   <!-- DESCRIPTION -->  
 													<h2>Виктор Наумов</h2>
-													<p>“Есть свое производство изделий из неравеющей стали, нужно было в срочном порядке отправить детали в Ульяновскую область. Обычные транспортные компании не подходили, поскольку срочная доставка стоила очень дорого. Также не было гарантий, что я получу груз на следующий день: самые быстрые варианты доставки занимали 1-2 дня. deliPort действительно выручил! Курьер сработал очень оперативно: буквально в 9 вечера забрал груз и к 5 вечера следующего дня он был уже доставлен. Моя благодарность ребятам!”</p>
+													<p>“Есть свое производство изделий из нержавеющей стали, нужно было в срочном порядке отправить детали в Ульяновскую область. Обычные транспортные компании не подходили, поскольку срочная доставка стоила очень дорого. Также не было гарантий, что я получу груз на следующий день: самые быстрые варианты доставки занимали 1-2 дня. deliPort действительно выручил! Курьер сработал очень оперативно: буквально в 9 вечера забрал груз и к 5 вечера следующего дня он был уже доставлен. Моя благодарность ребятам!”</p>
 												</div>
 											</div>
 										</div>
@@ -288,7 +337,7 @@
 												<div class="testimonial_caption">
 												<!-- DESCRIPTION --> 
 													<h2>Александр Седых</h2>
-													<p>“У меня свой стоматологический кабинет в Москве, заказал медецинские инструменты из Казани, предложили несколько вариантов доставки и обратили мое внимание на новый сервис deliPort, раньше о нем никогда не слышал, обещали что доставка будет в течении дня и привезут прямо ко мне, ну что сказать, 9 часов и инструменты у меня. Из минусов, сервис пока не везде распространен.”</p>
+													<p>“У меня свой стоматологический кабинет в Москве, заказал медицинские инструменты из Казани, предложили несколько вариантов доставки и обратили мое внимание на новый сервис deliPort, раньше о нем никогда не слышал. Обещали, что доставка будет в течение дня и привезут прямо ко мне, ну что сказать, 9 часов и инструменты у меня. Из минусов, сервис пока не везде распространен.”</p>
 												</div>
 											</div>
 										</div>
@@ -303,7 +352,7 @@
 												<div class="testimonial_caption">
 												<!-- DESCRIPTION --> 
 													<h2>Регина Калимуллова</h2>
-													<p>“Я учусь в медецинском университете, родители планировали передать посылку, как обычно через водителя автобуса, увидела рекламу сервиса, решила воспользоваться, блин, это настоящая курьерская служба, очень порадовали, спасибо и развития вашей компании.”</p>
+													<p>“Я учусь в медицинском университете, родители планировали передать посылку, как обычно через водителя автобуса, увидела рекламу сервиса, решила воспользоваться, блин, это настоящая курьерская служба, очень порадовали, спасибо и развития вашей компании.”</p>
 												</div>
 											</div>
 										</div>
@@ -434,78 +483,6 @@
 
 
 <!-- =========================
-	 START CALL TO ACTION
-============================== -->
-<!-- 	<div class="call_to_action">
-		<div class="container">
-			<div class="row wow fadeInLeftBig" data-wow-duration="1s">
-				<div class="col-md-9">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et olore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-				</div>
-				<div class="col-md-3">
-					<a class="btn btn-primary btn-action" href="#" role="button">Download Now</a>
-				</div>
-			</div>
-		</div>
-	</div>
- -->
-	<!-- END CALL TO ACTION -->
-
-
-<!-- =========================
-	 Start APPS SCREEN SECTION
-============================== -->
-	<!-- <section class="apps_screen page" id="SCREENS">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-10 col-md-offset-1 wow fadeInBig" data-wow-duration="1s">
-						
-						<div class="section_title">
-							<h2>Screenshots</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>                           
-						</div>
-						
-					</div>
-				</div>
-			</div>
-
-		<div class="screen_slider">
-			<div id="demo" class="wow bounceInRight" data-wow-duration="1s">
-				<div id="owl-demo" class="owl-carousel">
-
-		
-					<div class="item">
-					<a href="images/screens/iPhone04.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone04.png" width="60" height="60" alt="APPS SCREEN" /></a>
-					</div>
-					<div class="item">
-						<a href="images/screens/iPhone05.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone05.png" width="60" height="60" alt="APPS SCREEN" /></a>
-					</div>
-					<div class="item">
-						<a href="images/screens/iPhone06.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone06.png" width="60" height="60" alt="APPS SCREEN" /></a>
-					</div>
-					<div class="item">
-						<a href="images/screens/iPhone07.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone07.png" width="60" height="60" alt="APPS SCREEN" /></a>
-					</div>
-					<div class="item">
-						<a href="images/screens/iPhone08.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone08.png" width="60" height="60" alt="APPS SCREEN" /></a>
-					</div>
-					<div class="item">
-						<a href="images/screens/iPhone09.png" rel="prettyPhoto[pp_gal]"><img src="images/iPhone09.png" width="60" height="60" alt="APPS SCREEN" /></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
-
-
-	<!-- ENS APPS SCREEN -->
-
-
-
-
-
-<!-- =========================
 	 Start FUN FACTS
 ============================== -->
 
@@ -535,13 +512,6 @@
 							<p>Обратная связь</p>
 						</div>
 					</div>
-<!-- 					<div class="col-md-3">
-						<div class="single_fun_facts">
-							<i class="pe-7s-cup"></i>
-							<h2><span  class="counter_num">10</span> <span>+</span></h2>
-							<p>Awards</p>
-						</div>
-					</div> -->
 				</div>
 			</div>
 		</div>
@@ -556,27 +526,6 @@
 	 START DOWNLOAD NOW 
 ============================== -->
 	<section class="download page" id="DOWNLOAD">
-<!-- 		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="section_title">
-						<h2>download now</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<div class="download_screen text-center wow fadeInUp" data-wow-duration="1s">
-						<img src="images/download_screen.png" alt="">
-					</div>
-				</div>
-			</div -->>
-		</div>
-
 		<div class="available_store">
 			<div class="container  wow bounceInRight" data-wow-duration="1s">
 				<div class="col-md-6">
@@ -589,36 +538,22 @@
 				<!-- DOWNLOADABLE STORE -->
 				<div class="col-md-6">
 					<div class="row">
-						<a href="">
-							<div class="col-md-6 no_padding">
-								<div class="single_store">
-									<i class="fa fa-apple"></i>
-									<div class="store_inner">
-										<h2>iOS</h2>
-									</div>
+						<div class="col-md-6 no_padding">
+							<div class="single_store">
+								<i class="fa fa-apple"></i>
+								<div class="store_inner">
+									<h2>iOS</h2>
 								</div>
 							</div>
-						</a>
-						<div class="col-md-6 no_padding">
-							<a href="">
-								<div class="single_store last">
-									<i class="fa fa-android"></i>
-									<div class="store_inner">
-										<h2>ANDROID</h2>
-									</div>
-								</div>
-							</a>
 						</div>
-<!-- 						<div class="col-md-4 no_padding">
-							<a href="">
-								<div class="single_store last">
-									<i class="fa fa-windows"></i>
-									<div class="store_inner">
-										<h2>WINDOWS</h2>
-									</div>
+						<div class="col-md-6 no_padding">
+							<div class="single_store last">
+								<i class="fa fa-android"></i>
+								<div class="store_inner">
+									<h2>ANDROID</h2>
 								</div>
-							</a>
-						</div> -->
+							</div>
+						</div>
 					</div>
 				</div>
 				<!-- END DOWNLOADABLE STORE -->
@@ -648,9 +583,13 @@
 				<!-- START ERROR AND SUCCESS MESSAGE -->
 					<div class="form_error text-center">
 						<div class="name_error hide error">Пожалуйста, введите Ваше имя</div>
+						<div class="phone_error hide error">Пожалуйста, введите ваш номер телефона</div>
 						<div class="email_error hide error">Пожалуйста, напишите ваш e-mail</div>
 						<div class="email_val_error hide error">Извините, это не валидный e-mail</div>
-						<div class="message_error hide error">Напишите информацию о Вашем отправлении</div>
+						<div class="whence_error hide error">Напишите информацию откуда будет отправлена посылка</div>
+						<div class="where_error hide error">Напишите информацию куда будет отправлена посылка</div>
+						<div class="weight_error hide error">Напишите примерный вес посылки</div>
+						<div class="date_error hide error">Выберите дату, в которую хотели осуществить доставку</div>
 					</div>
 					<div class="preloader hide" style="margin-bottom: 10px;">
 						<div class="cssload-thecube"><div class="cssload-cube cssload-c1"></div>
@@ -667,19 +606,46 @@
 				<!-- CONTACT FORM starts here, Go to contact.php and add your email ID, thats it.-->    
 					<form role="form" action="contact.php" method="post">
 						<div class="row">
+							<div class="col-md-4"></div>
+							<div class="col-md-4">
+								<label for="name">ФИО</label>
+								<input type="text" class="form-control" id="name" placeholder="Иванов Иван Иванович" required>
+							</div>
+							<div class="col-md-4"></div>
+						</div>
+						<div class="row">
 							<div class="col-md-2"></div>
 							<div class="col-md-4">
-								<input type="text" class="form-control" id="name" placeholder="Имя" required="">
+								<label for="phone">Номер телефона</label>
+								<input type="text" class="form-control" id="phone" placeholder="+7(123) 45-6789" required>
 							</div>
 							<div class="col-md-4">
-								<input type="email" class="form-control" id="email" placeholder="E-mail" required>
+								<label for="email">Электронная почта</label>
+								<input type="email" class="form-control" id="email" placeholder="example@deliport.ru" required>
 							</div>
 							<div class="col-md-2"></div>
 						</div>
 						<div class="row">
 							<div class="col-md-2"></div>
-							<div class="col-md-8">
-								<textarea class="form-control" id="message" rows="25" cols="10" placeholder="Напишите информацию о вашем отправление(вес, габариты груза, откуда забирать, куда доставить и прочее)"></textarea>
+							<div class="col-md-4">
+								<label for="whence">Откуда</label>
+								<input type="text" class="form-control" id="whence" placeholder="г.Москва ул. Вавилова дом 45 кв 10" required>
+							</div>
+							<div class="col-md-4">
+								<label for="where">Куда</label>
+								<input type="text" class="form-control" id="where" placeholder="г.Казань ул. Лагутина дом 15 кв 32" required>
+							</div>
+							<div class="col-md-2"></div>
+						</div>
+						<div class="row">
+							<div class="col-md-2"></div>
+							<div class="col-md-4">
+								<label for="weight">Оценочный вес</label>
+								<input type="text" class="form-control" id="weight" placeholder="20кг" required>
+							</div>
+							<div class="col-md-4">
+								<label for="date">Желаемая дата получения</label>
+								<input type="date" class="form-control" id="date" required>
 							</div>
 							<div class="col-md-2"></div>
 						</div>
@@ -780,7 +746,7 @@
 				<div class="col-md-6">
 					<div class="copy_right_text">
 					<!-- COPYRIGHT TEXT -->
-						<p>Copyright &copy; 2018. All Rights Reserved.</p>        
+						<p >deliPort &copy; <span style="font-family: Helvetica Neue, Helvetica,Arial,sans-serif;">2018</span>. Все права защищены.</p>        
 					</div>
 					 
 				</div>
@@ -813,6 +779,7 @@
 	<script src="js/wow.min.js"></script>
 	<script src="js/waypoints.min.js"></script>
 	<script src="js/jquery.counterup.min.js"></script>
+	<script src="js/jquery.maskedinput.min.js"></script>
 	<script src="js/script.js"></script>
 
 

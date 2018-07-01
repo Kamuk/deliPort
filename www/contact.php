@@ -41,16 +41,20 @@ function send_mail($to,$subject,$message,$headers){
 }
 
 //Get data form and send mail
-if (isset($_POST['name']) and isset($_POST['emaild'])){
+if (isset($_POST['name']) and isset($_POST['phone']) and isset($_POST['emaild']) and isset($_POST['whence']) and isset($_POST['where']) and isset($_POST['weight']) and isset($_POST['date'])){
 	$name = $_POST['name'];
+	$phone = $_POST['phone'];
 	$mail = $_POST['emaild'];
+	$whence = $_POST['whence'];
+	$where = $_POST['where'];
+	$weight = $_POST['weight'];
+	$date = $_POST['date'];
 	$subjectForm = 'Заявка от клиента deliPort: ';
-	$messageForm = isset($_POST['message']) ? $_POST['message'] : 'Клиент: ' . $name . '. Не заполнил комментарий на сайте.';
 
-	if($name == '') {
+	if($name === '') {
 		echo json_encode(array('info' => 'error', 'msg' => "Пожалуйста введите имя."));
 		exit();
-	} else if($mail == ''){
+	} else if($mail === ''){
 		echo json_encode(array('info' => 'error', 'msg' => "Пожалуйста введите корректный e-mail."));
 		exit();
 	} else {
@@ -64,20 +68,32 @@ if (isset($_POST['name']) and isset($_POST['emaild'])){
 		<body>
 		  <table style="width: 500px; font-family: arial; font-size: 14px;" border="1">
 			<tr style="height: 32px;">
-			  <th align="right" style="width:150px; padding-right:5px;">Name:</th>
+			  <th align="right" style="width:150px; padding-right:5px;">ФИО:</th>
 			  <td align="left" style="padding-left:5px; line-height: 20px;">'. $name .'</td>
+			</tr>
+			<tr style="height: 32px;">
+			  <th align="right" style="width:150px; padding-right:5px;">Мобильный:</th>
+			  <td align="left" style="padding-left:5px; line-height: 20px;">'. $phone .'</td>
 			</tr>
 			<tr style="height: 32px;">
 			  <th align="right" style="width:150px; padding-right:5px;">E-mail:</th>
 			  <td align="left" style="padding-left:5px; line-height: 20px;">'. $mail .'</td>
 			</tr>
 			<tr style="height: 32px;">
-			  <th align="right" style="width:150px; padding-right:5px;">Subject:</th>
-			  <td align="left" style="padding-left:5px; line-height: 20px;">'. $subject .'</td>
+			  <th align="right" style="width:150px; padding-right:5px;">Откуда:</th>
+			  <td align="left" style="padding-left:5px; line-height: 20px;">'. $whence .'</td>
 			</tr>
 			<tr style="height: 32px;">
-			  <th align="right" style="width:150px; padding-right:5px;">Message:</th>
-			  <td align="left" style="padding-left:5px; line-height: 20px;">'. $messageForm  .'</td>
+			  <th align="right" style="width:150px; padding-right:5px;">Куда:</th>
+			  <td align="left" style="padding-left:5px; line-height: 20px;">'. $where  .'</td>
+			</tr>
+			<tr style="height: 32px;">
+			  <th align="right" style="width:150px; padding-right:5px;">Вес посылки:</th>
+			  <td align="left" style="padding-left:5px; line-height: 20px;">'. $weight  .'</td>
+			</tr>
+			<tr style="height: 32px;">
+			  <th align="right" style="width:150px; padding-right:5px;">Желаемая дата прибытия:</th>
+			  <td align="left" style="padding-left:5px; line-height: 20px;">'. $date  .'</td>
 			</tr>
 		  </table>
 		</body>

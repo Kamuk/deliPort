@@ -216,6 +216,12 @@ $(document).ready(function() {
 });
 
 
+//Маска для формы отправки заявки
+$(document).ready(function() {
+
+  $("#phone").mask("+7(999) 999-9999");
+});
+
 
 //CONTACT FORM VALIDATION
 $(document).ready(function() {
@@ -227,14 +233,22 @@ $(document).ready(function() {
 		"use strict";
 		
 		var name = $("#name").val();
+		var phone = $("#phone").val();
 		var emaild = $("#email").val();
-		var subject = $("#subject").val();
-		var message = $("#message").val();
+		var whence = $("#whence").val();
+		var where = $("#where").val();
+		var weight = $("#weight").val();
+		var date = $("#date").val();
 		var testEmail = /^[A-Z0-9._%+-]+@([A-Z0-9-]+\.)+[A-Z]{2,4}$/i;
 		if (!name) {
 			$(".form_error .name_error").addClass("show").removeClass("hide");
 		} else {
 			$(".form_error .name_error").addClass("hide").removeClass("show");
+		}
+		if (!phone) {
+			$(".form_error .phone_error").addClass("show").removeClass("hide");
+		} else {
+			$(".form_error .phone_error").addClass("hide").removeClass("show");
 		}
 		if (!emaild) {
 			$(".form_error .email_error").addClass("show").removeClass("hide");
@@ -246,20 +260,38 @@ $(document).ready(function() {
 				$(".form_error .email_val_error").addClass("show").removeClass("hide");
 			}
 		}
-		if (!message) {
-			$(".form_error .message_error").addClass("show").removeClass("hide");
+		if (!whence) {
+			$(".form_error .whence_error").addClass("show").removeClass("hide");
 		} else {
-			$(".form_error .message_error").addClass("hide").removeClass("show");
+			$(".form_error .whence_error").addClass("hide").removeClass("show");
+		}
+		if (!where) {
+			$(".form_error .where_error").addClass("show").removeClass("hide");
+		} else {
+			$(".form_error .where_error").addClass("hide").removeClass("show");
+		}
+		if (!weight) {
+			$(".form_error .weight_error").addClass("show").removeClass("hide");
+		} else {
+			$(".form_error .weight_error").addClass("hide").removeClass("show");
+		}
+		if (!date) {
+			$(".form_error .date_error").addClass("show").removeClass("hide");
+		} else {
+			$(".form_error .date_error").addClass("hide").removeClass("show");
 		}
 
-		if (name && emaild && message) {
+		if (name && phone && emaild && whence && where && weight && date) {
 			$.ajax({
 				url: 'contact.php',
 				data: {
 					name: name,
+					phone: phone,
 					emaild: emaild,
-					subject: subject,
-					message: message
+					whence: whence,
+					where: where,
+					weight: weight,
+					date: date
 				},
 				dataType: 'json',
 				type: 'POST',
@@ -275,17 +307,23 @@ $(document).ready(function() {
 		            if(data.info == 'success'){
 		            	console.log(data.msg);
 		            	$(".Sucess").show();
-						$(".Sucess").html("<i class='fa fa-check'></i> Уважаемый <b> " + name + "</b>" + data.msg);
+						$(".Sucess").html("<i class='fa fa-check'></i> Уважаемый <b> " + name + "</b>" + " " + data.msg);
 		            }
 					$("#Name").val("");
+					$("#Phone").val("");
 					$("#Email").val("");
-					$("#Subject").val("");
-					$("#Message").val("");
-					$(".form_error .name_error, .form_error .email_error, .form_error .email_val_error, .form_error .message_error").addClass("hide").removeClass("show");
+					$("#Whence").val("");
+					$("#Where").val("");
+					$("#Weight").val("");
+					$("#Date").val("");
+					$(".form_error .name_error, .form_error .phone_error , .form_error .email_error, .form_error .email_val_error, .form_error .whence_error, .form_error .where_error, .form_error .weight_error, .form_error .date_error").addClass("hide").removeClass("show");
 					$("#name").val("");
+					$("#phone").val("");
 					$("#email").val("");
-					$("#subject").val("");
-					$("#message").val("");
+					$("#whence").val("");
+					$("#where").val("");
+					$("#weight").val("");
+					$("#date").val("");
 				}
 			});
 		} else {
@@ -318,24 +356,7 @@ $(document).ready(function() {
 	});
 	//COUNTER
 	$('.counter_num').counterUp({
-		delay: 10,
-		time: 2000
+		delay: 1,
+		time: 150
 	});
 });
-
-
-
-
-
-
-// //VIDEO BACKGROUND
-// $(document).ready(function() {
-//   var videobackground = new $.backgroundVideo($('body'), {
-//     "align": "centerXY",
-//     "width": 1280,
-//     "height": 720,
-//     "path": "media/",
-//     "filename": "cloud",
-//     "types": ["mp4","ogg","webm"]
-//   });
-// });
