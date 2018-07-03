@@ -120,8 +120,15 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-md-offset-1 col-sm-4">
-						<div class="home-iphone">
-							<img src="images/iPhone_Home.png" alt="">
+						<div id="carousel" class="home-iphone carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="item active">
+									<img src="images/iPhone_Home_1.png" alt="экран мобильного приложения" style="border: none; border-radius: 0;">
+								</div>
+								<div class="item">
+									<img src="images/iPhone_Home_2.png" alt="экран мобильного приложения главная" style="border: none; border-radius: 0;">
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
