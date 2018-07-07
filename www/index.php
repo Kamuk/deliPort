@@ -83,11 +83,10 @@
 						<ul class="nav navbar-nav navbar-right">
 							<!-- NAV -->
 							<li><a href="#HOME" style="color: #eeeeee;">Главная</a> </li>
+							<li><a href="#SERVICES" style="color: #eeeeee;">Как это работает</a></li>
 							<li><a href="#ABOUT" style="color: #eeeeee;">О нас</a> </li>
 							<li><a href="#TESTIMONIAL" style="color: #eeeeee;">Отзывы</a></li>
-							<li><a href="#FEATURES" style="color: #eeeeee;">Особенности</a></li>
-							<li><a href="#DOWNLOAD" style="color: #eeeeee;">Скоро</a></li>
-							<li><a href="tel:+7(965)3604563" style="color: #eeeeee;"><span style="font-family: Helvetica Neue, Helvetica,Arial,sans-serif;">+7(965)360-45-63</span></a></li>
+							<li><a href="tel:+7(495)59910689" style="color: #eeeeee;"><span style="font-family: Helvetica Neue, Helvetica,Arial,sans-serif;">+7 (495) 599-106-89</span></a></li>
 							<li><a href="#CONTACT" style="color: #f39c12;">Отправить посылку</a></li>
 						</ul>
 					</div>
@@ -109,8 +108,8 @@
 					<div class="col-md-8 col-sm-8">
 						<div class="home_text">
 							<!-- TITLE AND DESC -->
-							<h1>Сервис СРОЧНЫХ междугородних доставок <span style="text-transform: lowercase;">deli<span style="text-transform: uppercase;">P</span>ort</span></h1>
-							<p>Осуществляем доставку в пределах 24ч на расстояние до 1000км</p>
+							<h1>Сервис СРОЧНЫХ междугородних доставок <span style="text-transform: lowercase; color: #f39c12;">deli<span style="text-transform: uppercase;">P</span>ort</span></h1>
+							<p style="font-family: Helvetica Neue, Helvetica,Arial,sans-serif;">Осуществляем доставку в пределах 24ч на расстояние до 1000км</p>
 
 							<div class="download-btn">
 							<!-- BUTTON -->
@@ -120,7 +119,7 @@
 						</div>
 					</div>
 					<div class="col-md-3 col-md-offset-1 col-sm-4">
-						<div id="carousel" class="home-iphone carousel slide" data-ride="carousel">
+						<div id="carousel" class="home-iphone carousel slide" data-interval="2000" data-ride="carousel">
 							<div class="carousel-inner">
 								<div class="item active">
 									<img src="images/iPhone_Home_1.png" alt="экран мобильного приложения" style="border: none; border-radius: 0;">
@@ -143,7 +142,7 @@
 <!-- =========================
 	"Как это работает"
 ============================== -->
-	<section id="FEATURES" class="features page">
+	<section id="SERVICES" class="features page">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
@@ -185,10 +184,6 @@
 	</section>
 	<!-- Конец секции -->
 
-
-<!-- Разделитель -->
-<div class="delimeter"></div>
-
  <!-- =========================
 	 START ABOUT US SECTION
 ============================== -->
@@ -201,7 +196,7 @@
 					<!-- ABOUT US SECTION TITLE-->
 					<div class="section_title">
 						<h2 style="text-transform: unset;">О нас</h2>
-						<p>Сервис deliPort, создан для решения проблем и неудобств, при отправке груза по междугородним направлениям.</p>
+						<p>Сервис <span style="color: #f39c12; font-weight: bold;">deliPort</span> создан для решения проблем и неудобств при отправке грузов по междугородним направлениям.</p>
 					</div>
 				</div>
 
@@ -219,7 +214,7 @@
 					<div class="col-md-6  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
 						<!-- TITLE -->
 						<div class="inner_about_title">
-							<h2>Почему клиенты выбирают<br> <span style="text-transform: lowercase;">deli<span style="text-transform: uppercase;">P</span>ort</span></h2>
+							<h2>Почему клиенты выбирают<br> <span style="color: #f39c12; text-transform: lowercase;">deli<span style="text-transform: uppercase;">P</span>ort</span></h2>
 							<p>Мы трудимся день и ночь, чтобы наш сервис удовлетворял вашим потребностям.</p>
 						</div>
 						<div class="inner_about_desc">
@@ -262,7 +257,7 @@
 								<div><i class="pe-7s-piggy"></i></div>
 								<!-- HEADING DESCRIPTION -->
 								<h3>Экономия</h3>
-								<p>При всех наших плюсах, стоимость доставки не отличается от транспортных компаний, а, зачастую, и дешевле.</p>
+								<p>При всех наших плюсах, стоимость доставки не отличается от транспортных компаний, а, зачастую, ДАЖЕ дешевле.</p>
 							</div>
 							<!-- END SINGLE DESC -->
 
@@ -382,16 +377,14 @@
 <!-- =========================
 	 START FEATURES
 ============================== -->
-	<section id="FEATURES" class="features page">
+	<!-- <section id="FEATURES" class="features page">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
-					<!-- FEATURES SECTION TITLE -->
 					<div class="section_title wow fadeIn" data-wow-duration="1s">
 						<h2>Особенности</h2>
 						<p>Удобное мобильное приложение на Android и IOS</p>
 					</div>
-					<!-- END FEATURES SECTION TITLE -->
 				</div>
 			</div>
 		</div>
@@ -400,92 +393,60 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
-						<!-- FEATURE -->
-
 						<div class="left_single_feature">
-							<!-- ICON -->
 							<div><span class="pe-7s-light"></span></div>
 
-							<!-- FEATURE HEADING AND DESCRIPTION -->
 							<h3>Креативный дизайн<span>/</span></h3>
 							<p>Наши дизайнеры, разработали прогрессивный, юзабилити интерфейс</p>
 						</div>
 
-						<!-- END SINGLE FEATURE -->
-
-
-						<!-- FEATURE -->
 						<div class="left_single_feature">
-							<!-- ICON -->
 							<div><span class="pe-7s-science"></span></div>
 
-							<!-- FEATURE HEADING AND DESCRIPTION -->
 							<h3>Современное видение<span>/</span></h3>
 							<p>Не боимся эксперементировать с новыми технологиями и идеями</p>
 						</div>
-						<!-- END SINGLE FEATURE -->
 
-
-						<!-- FEATURE -->
 						<div class="left_single_feature">
-							<!-- ICON -->
 							<div><span class="pe-7s-look"></span></div>
 
-							<!-- FEATURE HEADING AND DESCRIPTION -->
 							<h3>Версия для слабовидящих<span>/</span></h3>
 							<p>Нашим приложением можно пользоваться, не одевая очки</p>
-						</div>
-						<!-- END SINGLE FEATURE -->
 
 					</div>
 					<div class="col-md-4">
 						<div class="feature_iphone">
-							<!-- FEATURE PHONE IMAGE -->
 							<img class="wow bounceIn" data-wow-duration="1s" src="images/iPhone02.png" alt="">
 						</div>
 					</div>
 					<div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
 
-						<!-- FEATURE -->
 						<div class="right_single_feature">
-							<!-- ICON -->
 							<div><span class="pe-7s-tools"></span></div>
 
-							<!-- FEATURE HEADING AND DESCRIPTION -->
 							<h3><span>/</span>Ответственность</h3>
 							<p>Мы отвечаем за качество нашего продукта, и прислушиваемся к вашим пожеланиям</p>
 						</div>
-						<!-- END SINGLE FEATURE -->
 
-
-						<!-- FEATURE -->
 						<div class="right_single_feature">
-							<!-- ICON -->
 							<div><span class="pe-7s-phone"></span></div>
 
-							<!-- FEATURE HEADING AND DESCRIPTION -->
 							<h3><span>/</span>Адаптивность</h3>
 							<p>Разрабатываемое приложения, тестируем на 30+ различных мобильных устройствах</p>
 						</div>
-						<!-- END SINGLE FEATURE -->
 
-
-						<!-- FEATURE -->
 						<div class="right_single_feature">
-							<!-- ICON -->
 							<div><span class="pe-7s-leaf"></span></div>
 
-							<!-- FEATURE HEADING AND DESCRIPTION -->
 							<h3><span>/</span>Чистый код</h3>
 							<p>Тщательно следим, за соблюдением code style нашими разработчиками</p>
 						</div>
-						<!-- END SINGLE FEATURE -->
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
-	<!-- END FEATURES SECTION -->
+	</section> -->
+
 
 
 
@@ -532,7 +493,7 @@
 <!-- =========================
 	 START DOWNLOAD NOW 
 ============================== -->
-	<section class="download page" id="DOWNLOAD">
+<!-- 	<section class="download page" id="DOWNLOAD">
 		<div class="available_store">
 			<div class="container  wow bounceInRight" data-wow-duration="1s">
 				<div class="col-md-6">
@@ -542,7 +503,6 @@
 					</div>
 				</div>
 
-				<!-- DOWNLOADABLE STORE -->
 				<div class="col-md-6">
 					<div class="row">
 						<div class="col-md-6 no_padding">
@@ -563,10 +523,10 @@
 						</div>
 					</div>
 				</div>
-				<!-- END DOWNLOADABLE STORE -->
+
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- END DOWNLOAD -->
 
 <!-- =========================
@@ -577,9 +537,9 @@
 			<div class="container">
 				<div class="col-md-10 col-md-offset-1 wow bounceIn">
 					<!-- Start Contact Section Title-->
-					<div class="section_title">
+					<div style="padding-bottom: 0px;" class="section_title">
 						<h2>Оставьте заявку</h2>
-						<p>Наш менеджер свяжется с Вами, чтобы обсудить условия и стоимость доставки Вашего груза, а также ответит на любые ваши вопросы.</p>
+						<p>Наш менеджер свяжется с Вами, чтобы обсудить условия и стоимость доставки Вашего груза.</p>
 					</div>
 				</div>
 			</div>
@@ -615,8 +575,8 @@
 						<div class="row">
 							<div class="col-md-4"></div>
 							<div class="col-md-4">
-								<label for="name">ФИО</label>
-								<input type="text" class="form-control" id="name" placeholder="Иванов Иван Иванович" required>
+								<label for="name">Как Вас зовут?</label>
+								<input type="text" class="form-control" id="name" placeholder="Имя" required>
 							</div>
 							<div class="col-md-4"></div>
 						</div>
