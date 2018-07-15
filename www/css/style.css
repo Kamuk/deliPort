@@ -469,13 +469,13 @@ div.carousel-inner .item img {
 }
 .right_single_feature {
 	position: relative;
-	padding-left: 90px;
-	margin-bottom: 65px;
-	margin-top: 35px;
+    padding-left: 90px;
+    margin-bottom: 115px;
+    margin-top: 95px;
 }
 .right_single_feature div {
 	position: absolute;
-	font-size: 40px;
+	font-size: 50px;
 	color: #f39c12;
 	left: 0;
 	width: 90px;
@@ -503,14 +503,14 @@ div.carousel-inner .item img {
 
 .left_single_feature {
 	position: relative;
-	padding-right: 90px;
-	margin-bottom: 65px;
-	text-align: right;
-	margin-top: 35px;
+    padding-right: 90px;
+    margin-bottom: 120px;
+    text-align: right;
+    margin-top: 100px;
 }
 .left_single_feature div {
 	position: absolute;
-	font-size: 40px;
+	font-size: 50px;
 	color: #f39c12;
 	right: 0;
 	width: 90px;
@@ -672,10 +672,10 @@ div.carousel-inner .item img {
 	content: "";
     position: absolute;
     bottom: 0;
-    width: 40%;
+    width: 100%;
     height: 1px;
     background-color: #f39c12;
-    left: 30%;
+    left: 0%;
 }
 /*---------------------------------------
    SECTION DOWNLOAD              
@@ -760,14 +760,18 @@ div.carousel-inner .item img {
 	border-right: 1px solid #0F1217;
 }
 /* Разделитель*/
+#SERVICES {
+	position: relative;
+}
+
 #SERVICES:after {
 	content: "";
     position: absolute;
-    bottom: -100%;
-    width: 40%;
+    bottom: 0;
+    width: 100%;
     height: 1px;
     background-color: #f39c12;
-    left: 30%;
+    left: 0%;
 }
 
 /*---------------------------------------

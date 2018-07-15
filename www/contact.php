@@ -6,7 +6,7 @@
 
 
 //E-mail address. Enter your email
-define("__TO__", "semen.svistunov@gmail.com");
+define("__TO__", "info@deliport.ru");
 
 //Success message
 define('__SUCCESS_MESSAGE__', "Ваше сообщение успешно отправлено, мы ответим в скором времени. Спасибо!");

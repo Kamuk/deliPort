@@ -181,7 +181,7 @@
 <!-- =========================
 	"Как это работает"
 ============================== -->
-	<section id="SERVICES" class="features page">
+<section id="SERVICES" class="features page">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-10 col-md-offset-1">
@@ -198,15 +198,32 @@
 		<div class="feature_inner">
 			<div class="container">
 				<div class="row">
-					<div class="col-md-8 right_no_padding wow slideInLeft" data-wow-duration="1s">
+					<div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
 						<!-- FEATURE -->
 
-						<div class="list-work">
-							<p>1. Вы оставляете заявку на сайте или мобильном приложении(скоро доступно)</p>
-							<p>2. Наша система подбирает вам подходящего курьера при помощи самообучающейся нейронной сети</p>
-							<p>3. Курьер связывается с вами и забирает груз прямо от вашей двери</p>
-							<p>4. Мы осуществляем доставку в обозначенный срок</p>
-							<p>5. Все счастливы</p>
+						<div class="left_single_feature">
+							<!-- ICON -->
+							<div><span class="pe-7s-calculator"></span></div>
+							<p>В режиме онлайн рассчитаем стоимость отправления</p>
+						</div>
+
+						<!-- END SINGLE FEATURE -->
+
+
+						<!-- FEATURE -->
+						<div class="left_single_feature">
+							<!-- ICON -->
+							<div><span class="pe-7s-id"></span></div>
+							<p>Наша система подбирает вам подходящего курьера из базы попутчиков</p>
+						</div>
+						<!-- END SINGLE FEATURE -->
+
+
+						<!-- FEATURE -->
+						<div class="left_single_feature">
+							<!-- ICON -->
+							<div><span class="pe-7s-box1"></span></div>
+							<p>Курьер забирает груз из любого удобного Вам места</p>
 						</div>
 						<!-- END SINGLE FEATURE -->
 
@@ -217,11 +234,39 @@
 							<img class="wow bounceIn" data-wow-duration="1s" src="images/iPhone02.png" alt="">
 						</div>
 					</div>
+					<div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
+
+						<!-- FEATURE -->
+						<div class="right_single_feature">
+							<!-- ICON -->
+							<div><span class="pe-7s-stopwatch"></span></div>
+							<p>Курьер доставит ваш груз в течении 24ч на расстояниедо 1000км</p>
+						</div>
+						<!-- END SINGLE FEATURE -->
+
+
+						<!-- FEATURE -->
+						<div class="right_single_feature">
+							<!-- ICON -->
+							<div><span class="pe-7s-phone"></span></div>
+							<p>В любой момент вы можете посмотреть где находится Ваш груз на карте в режиме реального времени</p>
+						</div>
+						<!-- END SINGLE FEATURE -->
+
+
+						<!-- FEATURE -->
+						<div class="right_single_feature">
+							<!-- ICON -->
+							<div><span class="pe-7s-cash"></span></div>
+							<p>Оплатить доставку Вы можете любым удобным онлайн способом</p>
+						</div>
+						<!-- END SINGLE FEATURE -->
+					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<!-- Конец секции -->
+	
 
  <!-- =========================
 	 START ABOUT US SECTION
@@ -305,35 +350,6 @@
 				</div>
 			</div>
 		</div>
-<!-- 
-		<div class="video_area">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 wow fadeInLeftBig">
-			
-						<div class="video_title">
-							<h2>Best App <br>in the market</h2>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
-						</div>
-						<div class="video-button">
-							
-							<a class="btn btn-primary btn-video" href="#FEATURES" role="button">Features</a>
-						</div>
-					</div>
-					<div class="col-md-6 wow fadeInRightBig">
-						
-						<div class="video">
-							<iframe src="https://player.vimeo.com/video/88209254?title=0&amp;byline=0&amp;portrait=0&amp;color=cc0000" width="560" height="315"></iframe>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div> -->
-	</section>
-	<!-- End About Us -->
-
-
-
 
  <!-- =========================
 	 START TESTIMONIAL SECTION
@@ -410,84 +426,6 @@
 
 
 	<!-- END TESTIMONIAL SECTION -->
-
-
-
-<!-- =========================
-	 START FEATURES
-============================== -->
-	<!-- <section id="FEATURES" class="features page">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-10 col-md-offset-1">
-					<div class="section_title wow fadeIn" data-wow-duration="1s">
-						<h2>Особенности</h2>
-						<p>Удобное мобильное приложение на Android и IOS</p>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div class="feature_inner">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-4 right_no_padding wow fadeInLeft" data-wow-duration="1s">
-						<div class="left_single_feature">
-							<div><span class="pe-7s-light"></span></div>
-
-							<h3>Креативный дизайн<span>/</span></h3>
-							<p>Наши дизайнеры, разработали прогрессивный, юзабилити интерфейс</p>
-						</div>
-
-						<div class="left_single_feature">
-							<div><span class="pe-7s-science"></span></div>
-
-							<h3>Современное видение<span>/</span></h3>
-							<p>Не боимся эксперементировать с новыми технологиями и идеями</p>
-						</div>
-
-						<div class="left_single_feature">
-							<div><span class="pe-7s-look"></span></div>
-
-							<h3>Версия для слабовидящих<span>/</span></h3>
-							<p>Нашим приложением можно пользоваться, не одевая очки</p>
-
-					</div>
-					<div class="col-md-4">
-						<div class="feature_iphone">
-							<img class="wow bounceIn" data-wow-duration="1s" src="images/iPhone02.png" alt="">
-						</div>
-					</div>
-					<div class="col-md-4 left_no_padding wow fadeInRight" data-wow-duration="1s">
-
-						<div class="right_single_feature">
-							<div><span class="pe-7s-tools"></span></div>
-
-							<h3><span>/</span>Ответственность</h3>
-							<p>Мы отвечаем за качество нашего продукта, и прислушиваемся к вашим пожеланиям</p>
-						</div>
-
-						<div class="right_single_feature">
-							<div><span class="pe-7s-phone"></span></div>
-
-							<h3><span>/</span>Адаптивность</h3>
-							<p>Разрабатываемое приложения, тестируем на 30+ различных мобильных устройствах</p>
-						</div>
-
-						<div class="right_single_feature">
-							<div><span class="pe-7s-leaf"></span></div>
-
-							<h3><span>/</span>Чистый код</h3>
-							<p>Тщательно следим, за соблюдением code style нашими разработчиками</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section> -->
-
-
-
 
 <!-- =========================
 	 Start FUN FACTS
