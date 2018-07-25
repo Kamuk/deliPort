@@ -145,23 +145,35 @@ $(document).ready(function() {
 
 
 
-//PARALLAX
+PARALLAX
 $(document).ready(function() {
 
 	"use strict";
-	
-	$(window).bind('load', function() {
-		"use strict";
-		parallaxInit();
-	});
 
-	function parallaxInit() {
-		"use strict";
-		$('.home-parallax').parallax("30%", 0.1);
-		$('.subscribe-parallax').parallax("30%", 0.1);
-		$('.testimonial').parallax("10%", 1);
-		/*add as necessary*/
-	}
+	$(window).resize(function() {
+		width = $(window).width();
+		if (width > 768) {
+			$(window).bind('load', function() {
+				"use strict";
+				parallaxInit();
+			});
+
+			function parallaxInit() {
+				"use strict";
+				$('.home-parallax').parallax("30%", 0.1);
+				$('.subscribe-parallax').parallax("30%", 0.1);
+				$('.testimonial').parallax("10%", 1);
+				/*add as necessary*/
+			}
+		} else {
+			$('#HOME').removeClass('parallax');
+			$('#HOME').removeClass('home-parallax');
+			$('.testimonial').removeClass('parallax');
+			$('.fun_facts').removeClass('parallax');
+		}
+	});
+	
+	
 });
 
 
@@ -297,18 +309,18 @@ $(document).ready(function() {
 				type: 'POST',
 				beforeSend: function(){
 					$('.contact_form .preloader').addClass("show").removeClass("hide");;
-			    },
+				},
 				success: function( data, textStatus, jqXHR ) {
 					$('.contact_form .preloader').addClass("hide").removeClass("show");
 					if(data.info == 'error'){
-		            	$(".Error").show();
+						$(".Error").show();
 						$(".Error").html("<i class='fa fa-close'></i>" + data.msg);
-		            }
-		            if(data.info == 'success'){
-		            	console.log(data.msg);
-		            	$(".Sucess").show();
+					}
+					if(data.info == 'success'){
+						console.log(data.msg);
+						$(".Sucess").show();
 						$(".Sucess").html("<i class='fa fa-check'></i> Уважаемый <b> " + name + "</b>" + " " + data.msg);
-		            }
+					}
 					$("#Name").val("");
 					$("#Phone").val("");
 					$("#Email").val("");

@@ -239,15 +239,15 @@ tuor:visited {
 -----------------------------------------*/
 .list-work p {
 	position: relative;
-    padding-right: 90px;
-    text-align: right;
-    margin-top: 20px;
+	padding-right: 90px;
+	text-align: right;
+	margin-top: 20px;
 	font-size: 19px;
-    line-height: 24px;
-    color: #333;
-    padding: 4px;
+	line-height: 24px;
+	color: #333;
+	padding: 4px;
 }
-    
+	
 
 
 
@@ -469,9 +469,9 @@ div.carousel-inner .item img {
 }
 .right_single_feature {
 	position: relative;
-    padding-left: 90px;
-    margin-bottom: 115px;
-    margin-top: 95px;
+	padding-left: 90px;
+	margin-bottom: 115px;
+	margin-top: 95px;
 }
 .right_single_feature div {
 	position: absolute;
@@ -503,10 +503,10 @@ div.carousel-inner .item img {
 
 .left_single_feature {
 	position: relative;
-    padding-right: 90px;
-    margin-bottom: 120px;
-    text-align: right;
-    margin-top: 100px;
+	padding-right: 90px;
+	margin-bottom: 120px;
+	text-align: right;
+	margin-top: 100px;
 }
 .left_single_feature div {
 	position: absolute;
@@ -670,12 +670,12 @@ div.carousel-inner .item img {
 /* Разделитель*/
 .fun_facts .section_overlay:after {
 	content: "";
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #f39c12;
-    left: 0%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #f39c12;
+	left: 0%;
 }
 /*---------------------------------------
    SECTION DOWNLOAD              
@@ -766,12 +766,12 @@ div.carousel-inner .item img {
 
 #SERVICES:after {
 	content: "";
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 1px;
-    background-color: #f39c12;
-    left: 0%;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #f39c12;
+	left: 0%;
 }
 
 /*---------------------------------------
@@ -1322,7 +1322,58 @@ select:-webkit-autofill {
 /* Разел Скоро */
 @media screen and (max-width: 768px) {
 	.single_store i {
-	    font-size: 80px;
-	    padding-top: 70px;
+		font-size: 80px;
+		padding-top: 70px;
+	}
+
+	/* Раздел о нас */
+	.about_phone {
+		text-align: center;
+		padding-top: 0!important;
+	}
+	.about_phone img {
+		width: 80%;
+	}
+	.inner_about_area {
+		padding-top: 0;
+	}
+	.inner_about_title {
+		padding-bottom: 0;
+	}
+	.inner_about_desc {
+		padding: 50px 0;
+	}
+
+	/* Раздел Features */
+	.feature_inner {
+		padding-bottom: 0;
+		padding-top: 0;
+	}
+
+	.feature_iphone {
+		text-align: center;
+	}
+
+	.feature_iphone img {
+		width: 70%;
+	}
+
+	.left_single_feature {
+		margin-bottom: 50px;
+		margin-top: 0;
+	}
+
+	.right_single_feature {
+		margin-bottom: 20px;
+		margin-top: 30px;
+	}
+
+	.left_no_padding {
+		padding-bottom: 80px;
+	}
+
+	/* Fun Facts */
+	.fun_facts .section_overlay {
+		padding-bottom: 50px;
 	}
 }

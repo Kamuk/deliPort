@@ -12,9 +12,6 @@
         float: none;
         text-align: center;
     }
-    .about_phone {
-        text-align: center;
-    }
     .video {
         padding-top: 50px;
     }
@@ -28,9 +25,6 @@
     .single_fun_facts {
         padding-bottom: 60px;
     }
-    .about_phone img {
-        width: 100%;
-    }
 }
 /* This Css is for tablet */
 
@@ -43,9 +37,6 @@
     }
     .iphone {
         float: none;
-        text-align: center;
-    }
-    .about_phone {
         text-align: center;
     }
     .call_to_action .col-md-3 {
