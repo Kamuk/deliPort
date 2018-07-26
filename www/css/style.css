@@ -1319,8 +1319,20 @@ select:-webkit-autofill {
 
 /* Mobile stile*/
 
-/* Разел Скоро */
 @media screen and (max-width: 768px) {
+	.parallax {
+		background-attachment: unset!important;
+	}
+
+
+	/* Главная */
+	.header, .testimonial {
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: 50%;
+	}
+
+	/* Разел Скоро */
 	.single_store i {
 		font-size: 80px;
 		padding-top: 70px;
