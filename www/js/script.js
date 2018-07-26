@@ -145,7 +145,7 @@ $(document).ready(function() {
 
 
 
-PARALLAX
+//PARALLAX
 $(document).ready(function() {
 
 	"use strict";
