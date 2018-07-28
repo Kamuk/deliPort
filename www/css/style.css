@@ -401,21 +401,16 @@ tuor:visited {
 	height: auto;
 }
 .testimonial {
-	background: url(../images/airport.jpg);
-	background-size: cover;
+	display: none;
+	background-color: #f1f1f1;
 }
 .testimonial .section_overlay {
-	background: rgba(0, 0, 0, .6);
-	padding-top: 80px;
-	padding-bottom: 80px;
+	position: relative;
+	padding-top: 0px;
+	padding-bottom: 120px;
 }
 .carousel-indicators {
-	bottom: -8px;
-}
-div.carousel-inner .item img {
-	border: 2px solid #f39c12;
-	border-radius: 50%;
-	padding: 3px;
+	bottom: -50px;
 }
 .testimonial_caption {
 	padding-bottom: 70px;
@@ -427,14 +422,14 @@ div.carousel-inner .item img {
 	padding-top: 50px;
 }
 .testimonial_caption h2 {
-	color: #f39c12;
+	color: #cccccc;
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 30px;
 	margin-top: 25px;
 }
 .testimonial_caption h4 {
-	color: #f39c12
+	color: #cccccc;
 }
 .testimonial_caption h4 span {
 	color: #D8D8D8;
@@ -444,14 +439,14 @@ div.carousel-inner .item img {
 .testimonial ol.carousel-indicators li {
 	width: 12px;
 	height: 12px;
-	border: 1px solid #f39c12;
+	border: 1px solid #cccccc;
 	margin: 1PX
 }
 .testimonial ol.carousel-indicators li.active {
 	width: 12px;
 	height: 12px;
-	border: 0px solid #f39c12;
-	background: #f39c12;
+	border: 1px solid #cccccc;
+	background: #e4e4e4;
 }
 /*---------------------------------------
    SECTION FEATURES              
@@ -622,15 +617,101 @@ div.carousel-inner .item img {
 	background: #f39c12;
 }
 /*---------------------------------------
+   SECTION FEEDBACK_DESKTOP         
+-----------------------------------------*/
+
+.feedback_desktop .section_overlay {
+	padding-top: 20px; 
+}
+
+.feedback_desktop .body_feedback {
+	margin: 0px 60px;
+    width: calc(100% - 120px);
+}
+
+.feedback_desktop .feedback_container {
+	padding: 0 20px;
+    position: relative;
+    display: block;
+}
+
+.feedback_container img {
+	position: relative;
+    top: 50px;
+    width: 30%;
+}
+
+.feedback_text_container {
+	background-color: #e4e4e4;
+    padding-top: 60px;
+    border-radius: 5px;
+}
+
+.feedback_text_container h4 {
+	font-weight: bold;
+}
+
+.feedback_text_container p {
+	padding: 20px 30px;
+	padding-bottom: 0px;
+    line-height: 1.8;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: center;
+}
+.xpandable-block {
+	height: 100px;
+	overflow: hidden;
+	order: 0;
+}
+.xpand-button {
+	order: 1;
+}
+#review_1,
+#review_2,
+#review_3 {
+	display: none;
+}
+#review_1:checked + .xpandable-block, 
+#review_2:checked + .xpandable-block,
+#review_3:checked + .xpandable-block {
+	height: auto;
+}
+label {
+	order: 1;
+    color: #777;
+    text-decoration: underline;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 15px 30px;
+}
+
+.review {
+	display: none;
+	color: #777;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.review.active {
+	display: inline-block;
+}
+
+
+/*---------------------------------------
    SECTION FUN FACTS              
 -----------------------------------------*/
 
-.fun_facts {
+.fun_facts, .feedback_desktop {
 /*	background: url(../images/fun-bg.png) no-repeat center;
 	background-size: cover;*/
 	background-color: #f1f1f1;
 }
-.fun_facts .section_overlay {
+.fun_facts .section_overlay, .feedback_desktop .section_overlay {
 	display: block;
 	position: relative;
 	padding-top: 120px;
@@ -668,10 +749,23 @@ div.carousel-inner .item img {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 /* Разделитель*/
-.fun_facts .section_overlay:after {
+.fun_facts .section_overlay:after,
+.testimonial .section_overlay:after,
+.feedback_desktop .section_overlay:after {
 	content: "";
 	position: absolute;
 	bottom: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #f39c12;
+	left: 0%;
+}
+
+.testimonial .section_overlay:before,
+.feedback_desktop .section_overlay:before {
+	content: "";
+	position: absolute;
+	top: 0;
 	width: 100%;
 	height: 1px;
 	background-color: #f39c12;
@@ -1384,8 +1478,16 @@ select:-webkit-autofill {
 		padding-bottom: 80px;
 	}
 
+	.feedback_desktop {
+		display: none;
+	}
+
+	.testimonial {
+		display: block;
+	}
+
 	/* Fun Facts */
-	.fun_facts .section_overlay {
+	.fun_facts .section_overlay, .feedback_desktop .section_overlay {
 		padding-bottom: 50px;
 	}
 }

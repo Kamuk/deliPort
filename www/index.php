@@ -351,12 +351,23 @@
 			</div>
 		</div>
 
- <!-- =========================
-	 START TESTIMONIAL SECTION
+<!-- =========================
+	 Start FEEDBACK
 ============================== -->
+
 
 	<section id="TESTIMONIAL" class="testimonial parallax">
 		<div class="section_overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+					<!-- ABOUT US SECTION TITLE-->
+						<div class="section_title">
+							<h2 style="text-transform: unset;">Наши клиенты любят нас</h2>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 wow bounceInDown">
@@ -373,13 +384,17 @@
 								<div class="item active">
 									<div class="container">
 										<div class="row">
-											<div class="col-md-12 text-center">
-												<!-- IMAGE -->
+											<div class="col-md-12 text-center feedback_container">
 												<img src="images/client_1.png" alt="">
-												<div class="testimonial_caption">
-												   <!-- DESCRIPTION -->  
-													<h2>Виктор Наумов</h2>
-													<p>“Есть свое производство изделий из нержавеющей стали, нужно было в срочном порядке отправить детали в Ульяновскую область. Обычные транспортные компании не подходили, поскольку срочная доставка стоила очень дорого. Также не было гарантий, что я получу груз на следующий день: самые быстрые варианты доставки занимали 1-2 дня. deliPort действительно выручил! Курьер сработал очень оперативно: буквально в 9 вечера забрал груз и к 5 вечера следующего дня он был уже доставлен. Моя благодарность ребятам!”</p>
+												<div class="feedback_text_container">
+													<h4>Виктор Наумов</h4>
+													<div class="wrapper">
+														<label for="review_1"><span class="review close_1 active">Читать далее...</span><span class="review open_1">Свернуть...</span></label>
+														<input type="checkbox" id="review_1">
+														<div class="xpandable-block">
+															<p>“Есть свое производство изделий из нержавеющей стали, нужно было в срочном порядке отправить детали в Ульяновскую область. Обычные транспортные компании не подходили, поскольку срочная доставка стоила очень дорого. Также не было гарантий, что я получу груз на следующий день: самые быстрые варианты доставки занимали 1-2 дня. deliPort действительно выручил! Курьер сработал очень оперативно: буквально в 9 вечера забрал груз и к 5 вечера следующего дня он был уже доставлен. Моя благодарность ребятам!”</p>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -388,13 +403,18 @@
 								<div class="item">
 									<div class="container">
 										<div class="row">
-											<div class="col-md-12 text-center">
+											<div class="col-md-12 text-center feedback_container">
 												 <!-- IMAGE -->
 												<img src="images/client_2.png" alt="">
-												<div class="testimonial_caption">
-												<!-- DESCRIPTION --> 
-													<h2>Александр Седых</h2>
-													<p>“У меня свой стоматологический кабинет в Москве, заказал медицинские инструменты из Казани, предложили несколько вариантов доставки и обратили мое внимание на новый сервис deliPort, раньше о нем никогда не слышал. Обещали, что доставка будет в течение дня и привезут прямо ко мне, ну что сказать, 9 часов и инструменты у меня. Из минусов, сервис пока не везде распространен.”</p>
+												<div class="feedback_text_container">
+													<h4>Александр Седых</h4>
+													<div class="wrapper">
+														<label for="review_2"><span class="review close_2 active">Читать далее...</span><span class="review open_2">Свернуть...</span></label>
+														<input type="checkbox" id="review_2">
+														<div class="xpandable-block">
+															<p>“У меня свой стоматологический кабинет в Москве, заказал медицинские инструменты из Казани, предложили несколько вариантов доставки и обратили мое внимание на новый сервис deliPort, раньше о нем никогда не слышал. Обещали, что доставка будет в течение дня и привезут прямо ко мне, ну что сказать, 9 часов и инструменты у меня. Из минусов, сервис пока не везде распространен.”</p>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -403,13 +423,18 @@
 								<div class="item">
 									<div class="container">
 										<div class="row">
-											<div class="col-md-12 text-center">
+											<div class="col-md-12 text-center feedback_container">
 												<!-- IMAGE -->
 												<img src="images/client_3.png" alt="">
-												<div class="testimonial_caption">
-												<!-- DESCRIPTION --> 
-													<h2>Регина Калимуллова</h2>
-													<p>“Я учусь в медицинском университете, родители планировали передать посылку, как обычно через водителя автобуса, увидела рекламу сервиса, решила воспользоваться, блин, это настоящая курьерская служба, очень порадовали, спасибо и развития вашей компании.”</p>
+												<div class="feedback_text_container">
+													<h4>Регина Калимуллова</h4>
+													<div class="wrapper">
+														<label for="review_3"><span class="review close_3 active">Читать далее...</span><span class="review open_3">Свернуть...</span></label>
+														<input type="checkbox" id="review_3">
+														<div class="xpandable-block">
+															<p>“Я учусь в медицинском университете, родители планировали передать посылку, как обычно через водителя автобуса, увидела рекламу сервиса, решила воспользоваться, блин, это настоящая курьерская служба, очень порадовали, спасибо и развития вашей компании.”</p>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -423,9 +448,74 @@
 		</div>
 	</section>
 
+	<!-- END FEEDBACK -->
 
 
-	<!-- END TESTIMONIAL SECTION -->
+<!-- =========================
+	 Start FEEDBACK
+============================== -->
+
+
+	<section class="feedback_desktop">
+		<div class="section_overlay" style="padding-top: 0px">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-10 col-md-offset-1">
+					<!-- ABOUT US SECTION TITLE-->
+						<div class="section_title">
+							<h2 style="text-transform: unset;">Наши клиенты любят нас</h2>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="container body_feedback">
+				<div class="row text-center">
+					<div class="col-md-4 feedback_container">
+						<img src="images/client_1.png" alt="">
+						<div class="feedback_text_container">
+							<h4>Виктор Наумов</h4>
+							<div class="wrapper">
+								<label for="review_1"><span class="review close_1 active">Читать далее...</span><span class="review open_1">Свернуть...</span></label>
+								<input type="checkbox" id="review_1">
+								<div class="xpandable-block">
+									<p>“Есть свое производство изделий из нержавеющей стали, нужно было в срочном порядке отправить детали в Ульяновскую область. Обычные транспортные компании не подходили, поскольку срочная доставка стоила очень дорого. Также не было гарантий, что я получу груз на следующий день: самые быстрые варианты доставки занимали 1-2 дня. deliPort действительно выручил! Курьер сработал очень оперативно: буквально в 9 вечера забрал груз и к 5 вечера следующего дня он был уже доставлен. Моя благодарность ребятам!”</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 feedback_container">
+						<img src="images/client_2.png" alt="">
+						<div class="feedback_text_container">
+							<h4>Александр Седых</h4>
+							<div class="wrapper">
+								<label for="review_2"><span class="review close_2 active">Читать далее...</span><span class="review open_2">Свернуть...</span></label>
+								<input type="checkbox" id="review_2">
+								<div class="xpandable-block">
+									<p>“У меня свой стоматологический кабинет в Москве, заказал медицинские инструменты из Казани, предложили несколько вариантов доставки и обратили мое внимание на новый сервис deliPort, раньше о нем никогда не слышал. Обещали, что доставка будет в течение дня и привезут прямо ко мне, ну что сказать, 9 часов и инструменты у меня. Из минусов, сервис пока не везде распространен.”</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 feedback_container">
+						<img src="images/client_3.png" alt="">
+						<div class="feedback_text_container">
+							<h4>Регина Калимуллова</h4>
+							<div class="wrapper">
+								<label for="review_3"><span class="review close_3 active">Читать далее...</span><span class="review open_3">Свернуть...</span></label>
+								<input type="checkbox" id="review_3">
+								<div class="xpandable-block">
+									<p>“Я учусь в медицинском университете, родители планировали передать посылку, как обычно через водителя автобуса, увидела рекламу сервиса, решила воспользоваться, блин, это настоящая курьерская служба, очень порадовали, спасибо и развития вашей компании.”</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- END FEEDBACK -->
+
 
 <!-- =========================
 	 Start FUN FACTS
