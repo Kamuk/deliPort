@@ -114,7 +114,7 @@
 							<span class="icon-bar"></span>
 						</button>
 						<a class="navbar-brand" href="#">
-							<img src="images/logo_white.png" alt="Logo" style="height: 45px; padding-top: 20px;">
+							<img src="images/new_logo.png" alt="Logo" style="height: 45px; padding-top: 20px;">
 						</a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
@@ -139,7 +139,7 @@
 					<div class="col-md-12">
 						<div class="text-left">
 								<!-- LOGO -->
-							<img width="155" height="55" src="images/logo_white.png" alt="">
+							<img width="255" height="57" src="images/new_logo.png" alt="">
 						</div>
 					</div>
 				</div>
