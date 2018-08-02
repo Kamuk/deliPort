@@ -676,12 +676,20 @@ tuor:visited {
 #review_3 {
 	display: none;
 }
+
 #review_1:checked + .xpandable-block, 
 #review_2:checked + .xpandable-block,
 #review_3:checked + .xpandable-block {
 	height: auto;
 }
-label {
+
+.review_text_1.active,
+.review_text_2.active,
+.review_text_3.active  {
+	height: auto;
+}
+
+label.label_review {
 	order: 1;
     color: #777;
     text-decoration: underline;
@@ -1029,7 +1037,6 @@ label {
 }
 
 .contact label {
-	color: "#999999";
 	font-weight: bold;
 	margin-left: 1em;
 }

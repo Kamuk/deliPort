@@ -183,27 +183,33 @@ $(document).ready(function() {
 	    if(!this.checked){
 	    	$(".review.open_1").removeClass('active');
 	    	$(".review.close_1").addClass('active');
+	    	$(".review_text_1").removeClass('active');
 	    }else{
 			$(".review.close_1").removeClass('active');
 	    	$(".review.open_1").addClass('active');
+	    	$(".review_text_1").addClass('active');
 	    }
 	});
 	$("#review_2").change(function(){
 	    if(!this.checked){
 	    	$(".review.open_2").removeClass('active');
 	    	$(".review.close_2").addClass('active');
+	    	$(".review_text_2").removeClass('active');
 	    }else{
 			$(".review.close_2").removeClass('active');
 	    	$(".review.open_2").addClass('active');
+	    	$(".review_text_2").addClass('active');
 	    }
 	});
 	$("#review_3").change(function(){
 	    if(!this.checked){
 	    	$(".review.open_3").removeClass('active');
 	    	$(".review.close_3").addClass('active');
+	    	$(".review_text_3").removeClass('active');
 	    }else{
 			$(".review.close_3").removeClass('active');
 	    	$(".review.open_3").addClass('active');
+	    	$(".review_text_3").addClass('active');
 	    }
 	});
 });
