@@ -127,6 +127,7 @@
 							<li><a href="#TESTIMONIAL" style="color: #eeeeee;">Отзывы</a></li>
 							<li><a href="tel:+7(495)59910689" style="color: #eeeeee;"><span style="font-family: Helvetica Neue, Helvetica,Arial,sans-serif;">+7 (495) 599-106-89</span></a></li>
 							<li><a href="#CONTACT" style="color: #f39c12;">Отправить посылку</a></li>
+							<!-- <li><a href="/courier.php" style="color: #4592f9;">Стать курьером</a></li> -->
 						</ul>
 					</div>
 					<!-- /.navbar-collapse -->
@@ -154,7 +155,12 @@
 							<!-- BUTTON -->
 								<a class="btn home-btn wow fadeInLeft" href="#CONTACT">Отправить посылку</a>
 								<a class="tuor btn wow fadeInRight" href="#ABOUT" style="text-transform: unset;">Узнайте о нас больше <i class="fa fa-angle-down"></i></a>
+								<!-- <a class="btn courier-btn wow fadeInLeft" href="/courier.php">Стать курьером</a> -->
 							</div>
+<!-- 							<div>
+								<a class="tuor btn wow fadeInRight" href="#ABOUT" style="text-transform: unset;">Узнайте о нас больше <i class="fa fa-angle-down"></i></a>
+							</div> -->
+
 						</div>
 					</div>
 					<div class="col-md-3 col-md-offset-1 col-sm-4">
@@ -690,6 +696,13 @@
 							</div>
 							<div class="col-md-4"></div>
 						</div>
+						<div class="row">
+							<div class="col-md-2"></div>
+							<div class="col-md-8">
+								<p class="politicy">Нажимая на кнопку, вы даете согласие на обработку персональных данных и соглашаетесь c политикой конфиденциальности</p>
+							</div>
+							<div class="col-md-2"></div>
+						</div>
 					</form>
 					<!-- END FORM --> 
 				</div>
@@ -700,17 +713,13 @@
 					<div class="col-md-12 wow bounceInLeft">
 						<div class="social_icons">
 							<ul>
-<!-- 								<li><a href=""><i class="fa fa-facebook"></i></a>
+								<li><a href="https://vk.com/club168387320"><i class="fa fa-vk"></i></a>
 								</li>
-								<li><a href=""><i class="fa fa-twitter"></i></a>
+								<li><a href="https://instagram.com/_deliPort_"><i class="fa fa-instagram"></i></a>
 								</li>
-								<li><a href=""><i class="fa fa-dribbble"></i></a>
+								<li><a href="https://facebook.com/groups/2576704289022413"><i class="fa fa-facebook"></i></a>
 								</li>
-								<li><a href=""><i class="fa fa-behance"></i></a>
-								</li>
-								<li><a href=""><i class="fa fa-youtube-play"></i></a>
-								</li>
-							</ul> -->
+							</ul>
 						</div>
 					</div>
 				</div>

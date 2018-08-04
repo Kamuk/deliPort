@@ -210,6 +210,32 @@ p {
 	background-color: #f39c12;
 	color: #fff;
 }
+
+.courier-btn,
+.courier-btn:focus,
+.courier-btn:active,
+.courier-btn:visited {
+	margin-left: 20px;
+	background: transparent;
+	border-color: #4592f9;
+	color: #4592f9;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 19px;
+	text-transform: uppercase;
+	border-radius: 3px;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+}
+.courier-btn:hover {
+	background-color: #4592f9;
+	color: #fff;
+}
+
 .tuor,
 .tuor:focus,
 tuor:active,
@@ -936,6 +962,7 @@ label.label_review {
 .submit-btn:active,
 .submit-btn:focus,
 .submit-btn:visited {
+	margin-top: 20px;
 	background-color: transparent;
 	border: 1px solid #f39c12;
 	border-radius: 4px;
@@ -1039,6 +1066,12 @@ label.label_review {
 .contact label {
 	font-weight: bold;
 	margin-left: 1em;
+}
+
+.politicy {
+	text-align: center;
+    margin-top: 10px;
+    opacity: 0.5;
 }
 
 /*---------------------------------------
@@ -1431,6 +1464,14 @@ select:-webkit-autofill {
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-position: 50%;
+	}
+	.courier-btn,
+	.courier-btn:focus,
+	.courier-btn:active,
+	.courier-btn:visited,
+	.courier-btn:hover  {
+		margin-left: 0px;
+		margin-top: 20px;
 	}
 
 	/* Разел Скоро */
