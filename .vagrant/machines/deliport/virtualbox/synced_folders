@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/deliport":{"owner":"www-data","group":"www-data","mount_options":["dmode=775","uid=33","gid=33"],"guestpath":"/var/www/deliport","hostpath":"D:/projects/deliport/app","disabled":false,"__vagrantfile":true}}}
